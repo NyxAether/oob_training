@@ -1,6 +1,5 @@
 from oob_training.structures import TypeCompte
 
-
 Compte = tuple[TypeCompte, int, str, str | None]
 
 

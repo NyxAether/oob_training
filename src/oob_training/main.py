@@ -1,5 +1,3 @@
-from enum import Enum
-
 from oob_training.compte_bancaire_imperatif import (
     creer_compte,
     depot,
@@ -13,13 +11,7 @@ from oob_training.compte_bancaire_oob import (
     CompteJoint,
     LivretA,
 )
-
-
-class TypeCompte(Enum):
-    COMPTE_COURANT = 1
-    COMPTE_DEPOT = 2
-    LIVRET_A = 3
-    COMPTE_JOINT = 4
+from oob_training.structures import TypeCompte
 
 
 def suite_actions_imperatif() -> None:
